@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-
+#include <conio.h>
 int main()
 {
     char operation;
@@ -45,7 +45,8 @@ int main()
     {
         std::cout << "Invalid operation\n";
     }
-        std::cout << "\n*************************************************\n";
-
+        std::cout << "\n*************************************************\n\n";
+    std::cout<<"Press enter to continue . . .";
+    getch();
     return 0;
 }
