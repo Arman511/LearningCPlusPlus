@@ -13,7 +13,7 @@ int main(){
         tries--;
         std::cout<<"Guess the number between 1-10, you have "<<tries<<" tries left: ";
         std::cin>>guess;
-    }while(num!=guess && tries>0);
+    }while(num!=guess && tries>1);
     
     num==guess ? std::cout<<"Correct you did it in "<<4-tries<<" tries\n" : std::cout<<"You lost\n";
     
