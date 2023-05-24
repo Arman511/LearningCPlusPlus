@@ -16,12 +16,12 @@ int main()
     double ans = -500;
     if (type == 'F' || type == 'f')
     {
-        ans = (temp - 32) / 1.8;
+        ans = (temp * 1.8) + 32;
         std::cout << "The temperature in Fahrenheit is: " << ans << "F\n";
     }
     else if (type == 'C' || type == 'c')
     {
-        ans = (temp * 1.8) + 32;
+        ans = (temp - 32) / 1.8;
         std::cout << "The temperature in Celsius is: " << ans << "C\n";
     }
     else
