@@ -1,1 +1,0 @@
-int i = 0; i < sizeof(arr) / sizeof(int); i++
